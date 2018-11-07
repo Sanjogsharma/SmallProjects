@@ -1,0 +1,41 @@
+git clone https://github.com/Sanjogsharma/SmallProjects.git
+  289  ls
+  290  cd SmallProjects/
+  291  ls
+  292  echo print("Hello World") > Hello.py
+  293  echo "print("Hello World")" > Hello.py
+  294  ls
+  295  git status
+  296  git add .
+  297  git status
+  298  git commit -m "added python file from command line"
+  299  ls
+  300  git status
+  301  git log
+  302  git push -u origin master 
+  303  gi
+  304  git
+  305  git help 
+  306  git --help 
+  307  git user.email
+  308  git --heko
+  309  git --help
+  310  git set
+  311  git config
+  312  got config --global user.email 
+  314  git config --global user.name Sanjog
+  315  git push -u origin master
+  316  git push -u origin master
+  317  git push -u origin master
+  318  git push -u origin master
+  319  ls
+  320  git checkout -b typo-fix
+  321  git checkout master
+  322  git checkout typo-fix
+  323  git status
+  324  vi Hello.py 
+  325  git add .
+  326  git status
+  327  git commit -m "fix typo"
+  328  git push -u origin typo-fix
+  329  history
