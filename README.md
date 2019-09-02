@@ -1,2 +1,2 @@
 # SmallProjects
-repo for simple projects
+repo for  really simple projects
