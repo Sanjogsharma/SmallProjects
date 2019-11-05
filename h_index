@@ -1,0 +1,13 @@
+
+'''calculate h-index of a publisher's citations
+'''
+
+def h_index(citations: List[int]) -> int: 
+    citations.sort()  #if unsorted, the complexity is O(n^2) instead of O(n log n)
+    n = len(citations)
+    for i, c in enumerate(citations): 
+        if c >= n - i:
+            return n - i
+    return 0 
+    
+print(h_index([1,2,3,4,55,6, 5, 5, 5]))
